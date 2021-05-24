@@ -2,7 +2,7 @@ import os
 from glob import glob
 
 
-data_dirs = ["Training_Batch_Files","Prediction_Batch_files"]
+data_dirs = ["Training_Batch_Files", "Prediction_Batch_files"]
 
 for data_dir in data_dirs:
     files = glob(data_dir + r"/*.csv")
